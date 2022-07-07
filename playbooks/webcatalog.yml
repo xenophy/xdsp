@@ -1,0 +1,8 @@
+- hosts: localhost
+  become: yes
+  tasks:
+    - name: download "WebCatalog"
+      shell: |
+        wget https://cdn-2.webcatalog.io/webcatalog/WebCatalog-43.4.1.AppImage -O /opt/WebCatalog-43.4.1.AppImage
+    - name: chmod "WebCatalog"
+      file: path=/opt/WebCatalog-43.4.1.AppImage mode=0777

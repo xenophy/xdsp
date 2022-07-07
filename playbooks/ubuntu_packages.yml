@@ -10,3 +10,12 @@
           - vim-gui-common
           - appimagelauncher
           - snapd
+          - pinta
+          - graphicsmagick
+          - icnsutils
+          - libxtst-dev
+          - libx11-dev
+          - libxrender-dev
+          - libxkbfile-dev
+          - libgconf-2-4
+          - wget

@@ -1,1 +1,9 @@
 playbooks:
+  nextcloud: https://xenophy.github.io/xdsp/playbooks/nextcloud.yml
+  rust: https://xenophy.github.io/xdsp/playbooks/rust.yml
+  skype: https://xenophy.github.io/xdsp/playbooks/skype.yml
+  slack: https://xenophy.github.io/xdsp/playbooks/slack.yml
+  ubuntu_packages: https://xenophy.github.io/xdsp/playbooks/ubuntu_packages.yml
+  ubuntu_repos: https://xenophy.github.io/xdsp/playbooks/ubuntu_repos.yml
+  webcatalog: https://xenophy.github.io/xdsp/playbooks/webcatalog.yml
+  zoom: https://xenophy.github.io/xdsp/playbooks/zoom.yml

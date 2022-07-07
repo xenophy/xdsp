@@ -1,0 +1,8 @@
+- hosts: localhost
+  become: yes
+  tasks:
+    - name: download "NextCloud"
+      shell: |
+        wget https://github.com/nextcloud/desktop/releases/download/v3.5.2/Nextcloud-3.5.2-x86_64.AppImage -O /opt/Nextcloud-3.5.2-x86_64.AppImage
+    - name: chmod "NextCloud"
+      file: path=/opt/Nextcloud-3.5.2-x86_64.AppImage mode=0777
