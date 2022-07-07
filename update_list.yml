@@ -1,2 +1,6 @@
-playbooks
+playbooks:
   rust: https://xenophy.github.io/xdsp/playbooks/rust.yml
+  slack: https://xenophy.github.io/xdsp/playbooks/slack.yml
+  ubuntu_packages: https://xenophy.github.io/xdsp/playbooks/ubuntu_packages.yml
+  ubuntu_repos: https://xenophy.github.io/xdsp/playbooks/ubuntu_repos.yml
+  zoom: https://xenophy.github.io/xdsp/playbooks/zoom.yml
