@@ -1,0 +1,6 @@
+- hosts: localhost
+  user: root
+  tasks:
+    - name: Register apt repositories
+      apt_repository:
+          repo: ppa:appimagelauncher-team/stable

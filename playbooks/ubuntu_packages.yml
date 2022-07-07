@@ -1,0 +1,12 @@
+- hosts: localhost
+  user: root
+  tasks:
+    - name: Install the Ubuntu packages
+      apt:
+        name:
+          - build-essential
+          - wmctrl
+          - vim-gtk3
+          - vim-gui-common
+          - appimagelauncher
+          - snapd
