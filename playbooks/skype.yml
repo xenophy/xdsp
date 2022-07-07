@@ -1,7 +1,7 @@
 - hosts: localhost
   user: root
   tasks:
-    - name: Install zoom
+    - name: Install skype
       snap:
-        name: zoom-client
+        name: skype
         classic: yes

@@ -12,8 +12,6 @@ for f in $TARGET; do
   BASENAME=`basename $f`
   NAME=`echo $BASENAME | sed 's/\.[^\.]*$//'`
 
-  echo "file: $f"
-  echo "basename: $BASENAME"
-  echo "  $NAME: $BASE_URL/$BASENAME" >> "$SCRIPT_DIR"/update_list.yml
-
 done
+
+echo "'update_list.yml' generated."
