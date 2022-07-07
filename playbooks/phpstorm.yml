@@ -1,0 +1,7 @@
+- hosts: localhost
+  user: root
+  tasks:
+    - name: Install PHPStorm
+      snap:
+        name: phpstorm
+        classic: yes

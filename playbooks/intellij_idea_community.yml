@@ -1,0 +1,7 @@
+- hosts: localhost
+  user: root
+  tasks:
+    - name: Install Intellij IDEA Community
+      snap:
+        name: intellij-idea-community
+        classic: yes

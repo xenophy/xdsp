@@ -1,0 +1,7 @@
+- hosts: localhost
+  user: root
+  tasks:
+    - name: Install CLion
+      snap:
+        name: clion
+        classic: yes

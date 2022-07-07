@@ -1,0 +1,7 @@
+- hosts: localhost
+  user: root
+  tasks:
+    - name: Install VSCode
+      snap:
+        name: code
+        classic: yes

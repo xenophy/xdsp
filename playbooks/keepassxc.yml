@@ -1,0 +1,6 @@
+- hosts: localhost
+  user: root
+  tasks:
+    - name: Install keepassxc
+      snap:
+        name: keepassxc

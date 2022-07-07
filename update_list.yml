@@ -1,9 +1,23 @@
 playbooks:
+  clion: https://xenophy.github.io/xdsp/playbooks/clion.yml
+  gitkraken: https://xenophy.github.io/xdsp/playbooks/gitkraken.yml
+  goland: https://xenophy.github.io/xdsp/playbooks/goland.yml
+  intellij_idea_community: https://xenophy.github.io/xdsp/playbooks/intellij_idea_community.yml
+  intellij_idea_ultimate: https://xenophy.github.io/xdsp/playbooks/intellij_idea_ultimate.yml
+  keepassxc: https://xenophy.github.io/xdsp/playbooks/keepassxc.yml
+  kotlin: https://xenophy.github.io/xdsp/playbooks/kotlin.yml
   nextcloud: https://xenophy.github.io/xdsp/playbooks/nextcloud.yml
+  phpstorm: https://xenophy.github.io/xdsp/playbooks/phpstorm.yml
+  pycharm_comunity: https://xenophy.github.io/xdsp/playbooks/pycharm_comunity.yml
+  pycharm_professional: https://xenophy.github.io/xdsp/playbooks/pycharm_professional.yml
+  rider: https://xenophy.github.io/xdsp/playbooks/rider.yml
+  rubymine: https://xenophy.github.io/xdsp/playbooks/rubymine.yml
   rust: https://xenophy.github.io/xdsp/playbooks/rust.yml
   skype: https://xenophy.github.io/xdsp/playbooks/skype.yml
   slack: https://xenophy.github.io/xdsp/playbooks/slack.yml
   ubuntu_packages: https://xenophy.github.io/xdsp/playbooks/ubuntu_packages.yml
   ubuntu_repos: https://xenophy.github.io/xdsp/playbooks/ubuntu_repos.yml
+  vscode: https://xenophy.github.io/xdsp/playbooks/vscode.yml
   webcatalog: https://xenophy.github.io/xdsp/playbooks/webcatalog.yml
+  webstorm: https://xenophy.github.io/xdsp/playbooks/webstorm.yml
   zoom: https://xenophy.github.io/xdsp/playbooks/zoom.yml

@@ -1,0 +1,7 @@
+- hosts: localhost
+  user: root
+  tasks:
+    - name: Install PyCharm Professional
+      snap:
+        name: pycharm-professional
+        classic: yes

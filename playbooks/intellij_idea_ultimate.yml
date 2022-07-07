@@ -1,0 +1,7 @@
+- hosts: localhost
+  user: root
+  tasks:
+    - name: Install Intellij IDEA Ultimate
+      snap:
+        name: intellij-idea-ultimate
+        classic: yes
