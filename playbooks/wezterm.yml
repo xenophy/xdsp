@@ -1,0 +1,7 @@
+- hosts: localhost
+  become: yes
+  tasks:
+    - name: download "Wezterm"
+      shell: |
+        wget https://github.com/wez/wezterm/releases/download/20220624-141144-bd1b7c5d/wezterm-20220624-141144-bd1b7c5d.Ubuntu22.04.deb -O /opt/wezterm-20220624-141144-bd1b7c5d.Ubuntu22.04.deb
+        sudo apt install /opt/wezterm-20220624-141144-bd1b7c5d.Ubuntu22.04.deb
